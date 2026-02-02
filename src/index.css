@@ -1,4 +1,7 @@
-/* this import causes `Error: channel closed */
+/* this import causes `Error: channel closed`
+Valid file is `index.css`.
+Deno should not crash and should report the error gracefully.
+*/
 @import "tailwindcss/style.css";
 
 body {
