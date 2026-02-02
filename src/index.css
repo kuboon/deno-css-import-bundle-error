@@ -1,0 +1,6 @@
+/* this import causes `Error: channel closed */
+@import "tailwindcss/style.css";
+
+body {
+  background-color: mintcream;
+}

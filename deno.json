@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "bundle": "deno run -P bundle.ts"
+  },
+  "imports": {
+    "tailwindcss": "npm:tailwindcss@^4.1.18"
+  },
+  "unstable": ["bundle"],
+  "permissions": {
+    "default": {
+      "write": ["dist/"]
+    }
+  }
+}
